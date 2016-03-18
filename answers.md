@@ -20,10 +20,10 @@
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
-
+	In application.html.erb, it looks like it's calling messages.html.erb and navigation.html.erb to send a response back to the browser.
 
 # Give us feedback on the project and decal below!
 
-The project was fun! One thing I would have to say is to be more clear on the README instructions because in Part 0 I thought we were supposed to fix the uninitialized constant before moving onto part 1, so I started creating a table for pokemon early on. However, when I started reading part 1, I realized that part 1 had already told me how to fix the uninitialized constant and add attributes that I didn't add beforehand, so I deleted the pokemon migration and restarted it. Also may be helpful to reiterate that a controller should have a plural name such as "Pokemons" instead of "Pokemon."
+	The project was fun! One thing I would have to say is to be more clear on the README instructions because in Part 0 I thought we were supposed to fix the uninitialized constant before moving onto part 1, so I started creating a table for pokemon early on. However, when I started reading part 1, I realized that part 1 had already told me how to fix the uninitialized constant and add attributes that I didn't add beforehand, so I deleted the pokemon migration and restarted it. Also may be helpful to reiterate that a controller should have a plural name such as "Pokemons" instead of "Pokemon." But overall, the project was very well-made and I enjoyed it! 
 
 # Extra credit: Link your Heroku deployed app
