@@ -11,6 +11,8 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'foundation-rails', '5.4.5'
 gem 'simple_form'
+gem "nokogiri", "=1.6.7.rc3"
+gem 'tzinfo-data'
 
 group :development do
   gem 'sqlite3'
